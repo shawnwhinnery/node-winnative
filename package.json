@@ -1,0 +1,14 @@
+{
+  "name": "node-winnative",
+  "version": "0.0.2",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build --runtime=electron --dist-url=https://atom.io/download/atom-shell"
+  },
+  "author": "Shawn Whinnery",
+  "license": "CAT",
+  "devDependencies": {},
+  "dependencies": {}
+}
