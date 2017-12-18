@@ -36,7 +36,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\KeeperFill.cc">
+    <ClCompile Include="..\src\node-winnative.cc">
       <Filter>..\src</Filter>
     </ClCompile>
     <ClCompile Include="C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.cc">

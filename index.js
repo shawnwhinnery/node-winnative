@@ -1,4 +1,4 @@
-const KeeperFill = require('./build/Release/KeeperFill.node')
+const KeeperFill = require('./build/Release/NodeWinNative.node')
 const windowsVcodeMap = {
 
   '0': 0x30,

@@ -22,7 +22,7 @@ bool GetActiveProcessName(TCHAR *buffer, DWORD cchLen) {
 }
 
 
-namespace KeeperBot {
+namespace NodeWinNative {
 
   using v8::FunctionCallbackInfo;
   using v8::Isolate;
@@ -152,6 +152,6 @@ namespace KeeperBot {
     NODE_SET_METHOD(exports, "getActiveWindowTitle", getActiveWindowTitle);
   }
 
-  NODE_MODULE(NODE_GYP_MODULE_NAME, init)
+  NODE_MODULE(NODE_GYP_MODULE_NAME, init);
 
 }  // namespace noise

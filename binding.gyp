@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-        "target_name": "KeeperFill",
-        "sources": [ "src/KeeperFill.cc" ],
+        "target_name": "NodeWinNative",
+        "sources": [ "src/node-winnative.cc" ],
         "cflags" : [ "-std=c++1", "-stdlib=libc++" ]
     }
   ]
