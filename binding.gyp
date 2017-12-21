@@ -1,9 +1,14 @@
 {
-  "targets": [
-    {
-        "target_name": "NodeWinNative",
-        "sources": [ "src/node-winnative.cc" ],
-        "cflags" : [ "-std=c++1", "-stdlib=libc++" ]
-    }
-  ]
+    'targets': [ ],
+    'conditions': [
+      ['OS=="win"', {
+          "targets": [
+            {
+                "target_name": "NodeWinNative",
+                "sources": [ "src/node-winnative.cc" ],
+                "cflags" : [ "-std=c++1", "-stdlib=libc++" ]
+            }
+          ]
+      }]
+    ]
 }
