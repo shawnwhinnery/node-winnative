@@ -6,7 +6,7 @@
   "scripts": {
     "configure": "node-gyp configure",
     "build": "node-gyp build --runtime=electron --dist-url=https://atom.io/download/atom-shell",
-    "postinstall": "node install.js"
+    "install": "node install.js"
   },
   "author": "Shawn Whinnery",
   "license": "CAT",
